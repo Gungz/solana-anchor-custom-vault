@@ -8,11 +8,14 @@ skip-lint = false
 [programs.localnet]
 solana_gungz_custom_vault = "6SWg9b4teAfSHaYFbarF4KBAXnfyhBcwUkveP3N324TL"
 
+[programs.devnet]
+solana_gungz_custom_vault = "6SWg9b4teAfSHaYFbarF4KBAXnfyhBcwUkveP3N324TL"
+
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
